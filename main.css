@@ -1,11 +1,15 @@
+/* css resets - removing default styles that might make our work easier */
 a {
   color: inherit;
+  text-decoration: none;
 }
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* what is this property about */
 }
-/* utility styles-styles that apply to multipe sectionsn or elements within tthe page */
+
+/* utility styles - styles that apply to multiple sections or elements within the page */
 section,
 header,
 footer {
@@ -23,17 +27,16 @@ footer {
   background-color: #010101;
 }
 /* header styles */
-/* main styles */
-/* footer styles */
 header nav,
 footer nav {
   background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 14px 600px;
 }
-/* main sstyes */
+
+/* main styles */
 main {
   min-height: 600px;
 }
+/* footer styles */
