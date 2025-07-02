@@ -1,0 +1,39 @@
+a {
+  color: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* utility styles-styles that apply to multipe sectionsn or elements within tthe page */
+section,
+header,
+footer {
+  padding: 10px 60px;
+}
+.btn-element {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 13px 17px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-element:hover {
+  background-color: #010101;
+}
+/* header styles */
+/* main styles */
+/* footer styles */
+header nav,
+footer nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 600px;
+}
+/* main sstyes */
+main {
+  min-height: 600px;
+}
